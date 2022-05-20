@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body .title{
+    font-family: Amatic, sans-serif;
+}
+
+body .page4{
+    font-family: Caveat, sans-serif;
+}
+
+@font-face {
+    font-family: Amatic;
+    src: url(/src/fonts/AmaticSC-Regular.ttf);
+}
+
+@font-face {
+    font-family: Caveat;
+    src: url(/src/fonts/Caveat-SemiBold.ttf);
+}
+
+.title {
+    height: 938px;
+    width: 750px;
+    background: url('../img/index1.jpg') center center/cover no-repeat;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.menu {
+    font-family: Amatic;
+    font-size: 45px;
+    text-align: center;
+}
+
+.menu1 {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+
+}
+
+.page4 {
+    display: inline-block;
+    position: relative;
+}
+
+.page4 .text4, .page4 .text1 {
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    right: -700px;
+}
+
+.link {
+    text-decoration: none;
+    position: absolute;
+    bottom: 5px;
+    right: -350px;
+}
+
+.page4 .text2 {
+    font-size: 50px;
+    position: absolute;
+    top: 30px;
+    right: -900px;
+}
+
+.link2, .link3 {
+    text-decoration: none;
+    position: absolute;
+    bottom: -100px;
+    right: -550px;
+}
+
+.page4 .text3 {
+    font-size: 45px;
+    line-height: 40px;
+    position: absolute;
+    top: 30px;
+    right: -820px;
+}
+
+.page4 .text5 {
+    font-size: 50px;
+    line-height: 55px;
+    position: absolute;
+    top: 30px;
+    right: -700px;
+}
+
+.page4 .text6 {
+    font-size: 50px;
+    line-height: 70px;
+    position: absolute;
+    top: 30px;
+    right: -770px;
+}
